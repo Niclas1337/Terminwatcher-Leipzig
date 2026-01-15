@@ -1,6 +1,6 @@
 # Terminwatcher-Leipzig
 
-A Python script that automatically monitors the availability of appointments at any online appointment booking system in Leipzig and notifies you when free appointments become available. Given how difficult it is to obtain an appointment in time through conventional means, this tool helps you catch available slots as soon as they open up.
+A Python script that automatically monitors the availability of appointments at the online Kfz-Zulassungsbehörde appointment booking system of the Stadt Leipzig and notifies you when free appointments become available. Given how difficult it is to obtain an appointment in time through conventional means, this tool helps you catch available slots as soon as they open up.
 
 ## Installation
 
@@ -22,20 +22,6 @@ cd Terminwatcher-Leipzig
 ```
 
 ## Usage
-
-### Change the appointment booking URL
-
-Edit `main.py` and update the `URL` variable (line 10) to the booking system you want to monitor:
-
-```python
-URL = "https://terminvereinbarung.leipzig.de/m/[your-service]/extern/calendar/?uid=..."
-```
-
-Examples:
-- Kfz-Zulassungsbehörde
-- Bürgerbüro (citizenship)
-- Ordnungsamt
-- And any other Stadt Leipzig service with online appointment booking
 
 ### Select your service
 

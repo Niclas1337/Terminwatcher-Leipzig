@@ -17,7 +17,7 @@ pip install selenium
 ### Step 2: Download or clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Terminwatcher-Leipzig.git
+git clone https://github.com/Niclas1337/Terminwatcher-Leipzig.git
 cd Terminwatcher-Leipzig
 ```
 
